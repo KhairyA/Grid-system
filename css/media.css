@@ -1,0 +1,67 @@
+
+@media  (min-width: 640px) {
+   
+    .container{
+        grid-template-rows : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+          "div2 div2 div2 div2"
+          "div2 div2 div2 div2"
+          "div1 div1 div1 div1"
+          "div1 div1 div1 div1"
+          "div3 div3 div7 div7"
+          "div3 div3 div7 div7"
+          "div4 div4 div5 div5"
+          "div4 div4 div5 div5"
+          "div 9 div9 div6 div6"
+          "div 9 div9 div6 div6"
+          "div8  div8 div6 div6"
+          "div8  div8 div6 div6"
+          "div10  div10  div10  div10"
+          "div11   div11 div11 div11"
+          "div11   div11 div11 div11";
+    }
+
+}
+@media   (min-width: 1027px) {
+    .container{
+        grid-template-rows : 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-areas:
+          "div1 div1 div2 div2"
+          "div1 div1 div2 div2"
+          "div3 div4 div5 div6"
+          "div3 div4 div5 div6"
+          "div7 div8 div8 div6"
+          "div7 div8 div8 div6"
+          "div9 div10 div11 div11";
+    }
+ 
+}
+
+@media   (min-width: 1280px) {
+    .container{
+        grid-template-rows : 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-areas:
+          "div1 div1 div2 div2"
+          "div1 div1 div2 div2"
+          "div3 div4 div5 div6"
+          "div3 div4 div5 div6"
+          "div7 div8 div8 div6"
+          "div7 div8 div8 div6"
+          "div9 div10 div11 div11";
+    }
+
+}
+@media   (min-width: 1536px) {
+.container{
+    grid-template-rows : 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas:
+      "div1 div1 div2 div2"
+      "div1 div1 div2 div2"
+      "div3 div4 div5 div6"
+      "div3 div4 div5 div6"
+      "div7 div8 div8 div6"
+      "div7 div8 div8 div6"
+      "div9 div10 div11 div11";
+}
+
+}
